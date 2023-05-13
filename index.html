@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion ~ By Programming Here</title>
+    <!-- link for favicon  -->
+    <link rel="shortcut icon" href="./assets/icons/shopping-cart 1.png" type="image/x-icon">
+    <!-- link for bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- link for our css style  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class=" bg-white font-roboto">
+
+
+    <!-- header part design  -->
+    <header id="header" class="bg-hero">
+        <!-- navigations  -->
+        <nav id="navbar" class="navbar navbar-light navbar-expand-md">
+            <div class="menu-container container">
+                <a href="#header" class="logo navbar-brand"><img src="./assets/images/logo.png" alt="logo on penguin"
+                        class="img-fluid" width="280"></a>
+                <button class="navbar-toggler" data-bs-target="#collapsedMenu" data-bs-toggle="collapse"><span
+                        class="navbar-toggler-icon"></span></button>
+                <menu class="primary-menu navbar-collapse collapse" id="collapsedMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="#header" class="font-weight-500 px-4 text-color nav-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#products" data-bs-toggle="dropdown" class="font-weight-500 dropdown-toggle px-4 text-color nav-link">Products</a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#women">Women Fashion</a></li>
+                                <li><a class="dropdown-item" href="#men">Men Fashion</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#about" class="font-weight-500 px-4 text-color nav-link">About
+                                Us</a></li>
+                        <li class="nav-item"><a data-bs-target="#modal-1" data-bs-toggle="modal" href="#contact"
+                                class="font-weight-500 px-4 text-color nav-link bg-common btn px-3  fs-6 text-white btn-lg ">Contact</a>
+                        </li>
+                    </ul>
+                </menu>
+            </div>
+        </nav>
+        <!-- heros  -->
+        <section id="hero" class="hero">
+            <div class="hero-container container py-5">
+                <div class="row gy-5 gy-lg-0 align-items-center py-lg-5 my-lg-3 justify-content-between">
+                    <div
+                        class="col-lg-4 col-md-5 order-2 text-center text-lg-start text-md-start text-sm-center order-sm-1 order-md-1 order-lg-1">
+                        <h1 class="hero__title text-color letter-spacing text-uppercase display-2 font-bebas"><span
+                                class="text-common-alt">Be the Penguins</span> of Winter</h1>
+                        <p class="hero__desc lead fs-6 text-muted">Yeah@ this is penguins fashion house to be of
+                            yourself perfect and fashionable. Here we'll make you hero like programming hero</p>
+                        <a href="#"
+                            class="my-2 hero__btn bg-common btn px-3 text-uppercase fs-6 text-decoration-none text-white btn-lg d-inline-flex align-items-center"><img
+                                src="./assets/icons/shopping-cart 1.png" width="25" alt="shopping-cart"
+                                class="img-fluid"><span class="text ms-2">Shop Now</span></a>
+                    </div>
+                    <div class="col-lg-6 col-md-5 order-1">
+                        <img src="./assets/images/model.png" alt="model" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header part design end  -->
+
+    <!-- main part design  -->
+    <main id="main">
+
+        <!-- products section -->
+        <section id="women" class="women py-5">
+            <div class="female-container container">
+                <h1 class="font-bebas my-3 display-5 text-uppercase text-color">Women Jakets</h1>
+                <div class="row row-cols-md-2 gy-4 g-lg-4">
+                    <div class="col-lg-4">
+                        <div class="card border-0 shadow-card radius-max p-3">
+                            <div class="card-image">
+                                <img src="./assets/images/jacket-1.png" alt="female jaket" class="img-fluid"
+                                    width="225">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title h4 text-color">Yellow coat Jaket</h3>
+                                <p class="desc lead fs-6 my-2 mb-1 text-muted">this is yellow coat jaket for female it's
+                                    very comfortable</p>
+                                <div class="price-btn d-flex align-items-center justify-content-between">
+                                    <div class="price text-common-alt fs-2 fw-bold">$ 234 </div>
+                                    <div class="btn">
+                                        <a href="#"
+                                            class=" hero__btn bg-common btn px-3 text-uppercase fs-6 text-decoration-none text-white btn-lg d-inline-flex align-items-center">
+                                            <img src="./assets/icons/shopping-cart 1.png" alt="shopping-cart"
+                                                class="img-fluid" width="25">
+                                            <span class="name">Buy now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card border-0 shadow-card radius-max p-3">
+                            <div class="card-image">
+                                <img src="./assets/images/jacket-3.png" alt="female jaket" class="img-fluid"
+                                    width="225">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title h4 text-color">Red Lether Jaket</h3>
+                                <p class="desc lead fs-6 my-2 mb-1 text-muted">this is yellow coat jaket for female it's
+                                    very comfortable</p>
+                                <div class="price-btn d-flex align-items-center justify-content-between">
+                                    <div class="price text-common-alt fs-2 fw-bold">$ 234 </div>
+                                    <div class="btn">
+                                        <a href="#"
+                                            class=" hero__btn bg-common btn px-3 text-uppercase fs-6 text-decoration-none text-white btn-lg d-inline-flex align-items-center">
+                                            <img src="./assets/icons/shopping-cart 1.png" alt="shopping-cart"
+                                                class="img-fluid" width="25">
+                                            <span class="name">Buy now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card border-0 shadow-card radius-max p-3">
+                            <div class="card-image">
+                                <img src="./assets/images/jacket-2.png" alt="female jaket" class="img-fluid"
+                                    width="225">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title h4 text-color">Ladies Jaket</h3>
+                                <p class="desc lead fs-6 my-2 mb-1 text-muted">this is yellow coat jaket for female it's
+                                    very comfortable</p>
+                                <div class="price-btn d-flex align-items-center justify-content-between">
+                                    <div class="price text-common-alt fs-2 fw-bold">$ 234 </div>
+                                    <div class="btn">
+                                        <a href="#"
+                                            class=" hero__btn bg-common btn px-3 text-uppercase fs-6 text-decoration-none text-white btn-lg d-inline-flex align-items-center">
+                                            <img src="./assets/icons/shopping-cart 1.png" alt="shopping-cart"
+                                                class="img-fluid" width="25">
+                                            <span class="name">Buy now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- men  -->
+        <section id="men" class="men py-5">
+            <div class="male-container container">
+                <h1 class="font-bebas my-3 display-5 text-uppercase text-color">Man Jakets</h1>
+                <div class="row row-cols-md-2 gy-4 g-lg-4">
+                    <div class="col-lg-4">
+                        <div class="card border-0 shadow-card radius-max p-3">
+                            <div class="card-image">
+                                <img src="./assets/images/jacket-4.png" alt="female jaket" class="img-fluid"
+                                    width="225">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title h4 text-color">Snowboard Jaket Mens</h3>
+                                <p class="desc lead fs-6 my-2 mb-1 text-muted">this is yellow coat jaket for male it's
+                                    very comfortable</p>
+                                <div class="price-btn d-flex align-items-center justify-content-between">
+                                    <div class="price text-common-alt fs-2 fw-bold">$ 234 </div>
+                                    <div class="btn">
+                                        <a href="#"
+                                            class=" hero__btn bg-common btn px-3 text-uppercase fs-6 text-decoration-none text-white btn-lg d-inline-flex align-items-center">
+                                            <img src="./assets/icons/shopping-cart 1.png" alt="shopping-cart"
+                                                class="img-fluid" width="25">
+                                            <span class="name">Buy now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card border-0 shadow-card radius-max p-3">
+                            <div class="card-image">
+                                <img src="./assets/images/jacket-5.png" alt="female jaket" class="img-fluid"
+                                    width="225">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title h4 text-color">Men Lether Jaket</h3>
+                                <p class="desc lead fs-6 my-2 mb-1 text-muted">this is yellow coat jaket for male it's
+                                    very comfortable</p>
+                                <div class="price-btn d-flex align-items-center justify-content-between">
+                                    <div class="price text-common-alt fs-2 fw-bold">$ 234 </div>
+                                    <div class="btn">
+                                        <a href="#"
+                                            class=" hero__btn bg-common btn px-3 text-uppercase fs-6 text-decoration-none text-white btn-lg d-inline-flex align-items-center">
+                                            <img src="./assets/icons/shopping-cart 1.png" alt="shopping-cart"
+                                                class="img-fluid" width="25">
+                                            <span class="name">Buy now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card border-0 shadow-card radius-max p-3">
+                            <div class="card-image">
+                                <img src="./assets/images/jacket-6.png" alt="female jaket" class="img-fluid"
+                                    width="225">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title h4 text-color">Men Casual Jaket</h3>
+                                <p class="desc lead fs-6 my-2 mb-1 text-muted">this is yellow coat jaket for female it's
+                                    very comfortable</p>
+                                <div class="price-btn d-flex align-items-center justify-content-between">
+                                    <div class="price text-common-alt fs-2 fw-bold">$ 234 </div>
+                                    <div class="btn">
+                                        <a href="#"
+                                            class=" hero__btn bg-common btn px-3 text-uppercase fs-6 text-decoration-none text-white btn-lg d-inline-flex align-items-center">
+                                            <img src="./assets/icons/shopping-cart 1.png" alt="shopping-cart"
+                                                class="img-fluid" width="25">
+                                            <span class="name">Buy now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- about sections  -->
+        <section id="about" class="py-5">
+            <div class="about-container container py-5">
+                <div class="row gy-5 justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <div class="card flex-row align-items-center shadow-card border-0 mb-3 p-2">
+                            <div class="card-header bg-white border-0">
+                                <img src="./assets/images/house.png" width="80" alt="houses" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title font-roboto fs-4 text-color">Find the Perfect fit</h3>
+                                <p class="card-text text-muted small">Everybody is different, which is why we offer
+                                    styles for every body.</p>
+                            </div>
+                        </div>
+                        <div class="card flex-row align-items-center shadow-card border-0 mb-3 p-2">
+                            <div class="card-header bg-white border-0">
+                                <img src="./assets/images/box.png" width="80" alt="houses" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title font-roboto fs-4 text-color">Free Exchanges</h3>
+                                <p class="card-text text-muted small">One of the many reasons you can shop with peace of
+                                    mind.</p>
+                            </div>
+                        </div>
+                        <div class="card flex-row align-items-center shadow-card border-0 p-2">
+                            <div class="card-header bg-white border-0">
+                                <img src="./assets/images/question.png" width="80" alt="houses" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title font-roboto fs-4 text-color">Contact Our Seller</h3>
+                                <p class="card-text text-muted small">They are here to help you. That's quite literally
+                                    what we pay them for.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./assets/images/shopping.png" alt="shopping" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- main part design end  -->
+
+    <!-- footer part design  -->
+    <footer id="footer" class="py-3 text-center">
+        <div class="footer-container container">
+            <p class="lead text-muted fs-6">Copyright &copy; By 2022 and SHANTO DEY <a target="_blank" href="https://www.linkedin.com/in/shantodey/" class="text-common alert-link">Ashik Mahmud</a>
+            </p>
+        </div>
+    </footer>
+    <!-- footer part design end  -->
+
+    <!-- code for modal  -->
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form action="#">
+                    <div class="modal-header">
+                        <h3>Contact Us for Product</h3>
+                        <button data-bs-dismiss="modal" class="btn-close float-end"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-2">
+                            <label for="name" class="form-label">Your name</label>
+                            <input type="text" placeholder="Name" id="name" class="form-control">
+                        </div>
+                        <div class="mb-2">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" placeholder="Email" id="email" class="form-control">
+                        </div>
+                        <div class="mb-2">
+                            <label for="feedback" class="form-label">Query</label>
+                            <textarea name="feedback" id="feedback" placeholder="What do you want?" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit"
+                            class="font-weight-500 px-4 text-color bg-common btn px-3  fs-6 text-white btn-lg ">Send
+                            Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- script for bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
